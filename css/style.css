@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "Circe";
+  src: url("../fonts/Circe-Regular.eot");
+  src: local("Circe"), local("Circe-Regular"),
+    url("../fonts/Circe-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Circe-Regular.woff") format("woff"),
+    url("../fonts/Circe-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("../fonts/Circe-Bold.eot");
+  src: local("Circe Bold"), local("Circe-Bold"),
+    url("../fonts/Circe-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Circe-Bold.woff") format("woff"),
+    url("../fonts/Circe-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font-circe {
+  font-family: "Circe";
+}
+header {
+  background-image: url(../images/bg1.png);
+  background-size: cover;
+  min-height: 100vh;
+}
+.percent {
+  background-color: white;
+  color: salmon;
+  border-radius: 25px;
+}
+.button {
+  color: white;
+  border: 1px solid transparent;
+}
+.button:hover {
+  border-color: white;
+}
+
+.btn-outline-success {
+  color: #a2ee93;
+  border-color: #9bee8e;
+}
+
+.btn-line-bold {
+  border-width: 3px;
+}
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgb(145, 255, 115) 0%,
+    rgb(95, 95, 255) 100%
+  );
+  height: 6px;
+  padding: 0 !important;
+}
+
+.main-background {
+  background: linear-gradient(
+    180deg,
+    rgba(20, 31, 47, 1) 0%,
+    rgb(67, 122, 144) 40%,
+    rgba(20, 31, 47, 1) 100%
+  );
+}
+.svgImage {
+  width: 220px;
+  height: 220px;
+}
+
+table,
+td {
+  table-layout: fixed;
+  text-align: center;
+  font-size: 8px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+td:nth-child(1) {
+  color: rgb(166, 195, 251);
+}
+td:nth-child(2) {
+  color: rgb(194, 194, 194);
+}
+td:nth-child(3) {
+  color: rgb(108, 199, 108);
+}
+
+.form-background {
+  min-height: 60vh;
+  background: url("../images/bg2.png") no-repeat;
+  background-size: cover;
+}
+
+.contact-form {
+  padding: 12px;
+  border: none;
+  background-color: rgb(226, 234, 244);
+}
+
+.footer-background {
+  background-color: rgb(26, 35, 50);
+}
