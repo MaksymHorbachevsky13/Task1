@@ -41,13 +41,8 @@ header {
   border-color: white;
 }
 
-.btn-outline-success {
-  color: #a2ee93;
-  border-color: #9bee8e;
-}
-
 .btn-line-bold {
-  border-width: 3px;
+  border-width: 2px;
 }
 .gradient {
   background: linear-gradient(
